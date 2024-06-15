@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookbook</title>
+    <link rel="stylesheet" href="../styles/recipes.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Condensed"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../scripts/recipes.js"></script>
+  </head>
+  <body>
+    <div class="body">
+      <header class="navbar">
+        <div class="CookBook">
+          <a href="landingpage.html" id="clickable">
+            <img
+              src="../imgs/CookBook_transparent.png"
+              alt=""
+              id="CookBook_logo"
+            />
+            <h3 id="CompanyName">CookBook</h3>
+          </a>
+        </div>
+        <div class="info">
+          <li><a href="../html/developer.html" id="team">Who We Are</a></li>
+        </div>
+        <div class="options">
+          <li><a href="../html/recipes.html" id="search">Search</a></li>
+          <li><a href="../html/upload.html" id="upload">Upload</a></li>
+          <li>
+            <button>
+              <a href="../html/cart.html"
+                >Cart <i class="fas fa-shopping-cart"></i
+              ></a>
+            </button>
+          </li>
+        </div>
+      </header>
+      <div><img src="../imgs/SearchRecipes.svg" alt="" id="searchframe" /></div>
+      <div class="main">
+        <div class="wrap">
+          <div class="search">
+            <input
+              type="text"
+              class="searchTerm"
+              id="theSearchTerm"
+              placeholder="Let's Chef It Up!"
+            />
+            <button type="submit" class="searchButton" id="theSearchButton">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <h2 id="ExampleChefRecipes">Featured Recipes</h2>
+        <div class="recipes" id="recipes">
+          <div class="recipe" onclick="window.location.href='#recipe1'">
+            <img src="../imgs/sample1.jpeg" alt="Recipe 1" />
+            <p>Chicken Alfredo</p>
+          </div>
+          <div class="recipe" onclick="window.location.href='#recipe2'">
+            <img src="../imgs/sample2.jpeg" alt="Recipe 2" />
+            <p>Vegetable Tortellini Soup</p>
+          </div>
+          <div class="recipe" onclick="window.location.href='#recipe3'">
+            <img src="../imgs/sample3.jpeg" alt="Recipe 3" />
+            <p>Portuguese Egg Tarts</p>
+          </div>
+        </div>
+        <h2 id="ExampleChefRecipes">My CookBook Recipes</h2>
+        <div class="recipes" id="recipes">
+          <div class="recipe" onclick="window.location.href='#recipe4'">
+            <img src="../imgs/sample4.jpg" alt="Recipe 4" />
+            <p>Beet Borscht</p>
+          </div>
+          <div class="recipe" onclick="window.location.href='#recipe5'">
+            <img src="../imgs/sample5.jpg" alt="Recipe 5" />
+            <p>Homemade Falafels</p>
+          </div>
+          <div class="recipe" onclick="window.location.href='#recipe6'">
+            <img src="../imgs/sample6.jpg" alt="Recipe 6" />
+            <p>Squid Ink Paella</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <img src="../imgs/CookBook_transparent.png" alt="" id="CookBook_logo" />
+      <div class="team4">
+        <h1 id="group_title">CookBook</h1>
+        <h3 class="teamtitle">Team 4</h3>
+      </div>
+    </footer>
+  </body>
+</html>

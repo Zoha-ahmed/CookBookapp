@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main-color: #14ed67;
+  --black: #000;
+  --gray: #2d2d2d;
+  --main-color: #5e5df0;
+  --white: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  background: url("../imgs/kitchen.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+}
+/* This is the navbar */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1em;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  align-items: center;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20em;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15em;
+  align-items: center;
+}
+#CookBook_logo {
+  border-radius: 10em;
+  width: 20%;
+}
+#clickable {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+#team,
+#newspage,
+#search,
+#upload {
+  color: white;
+  text-decoration: none;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+}
+.CookBook {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(17, 17, 17);
+  width: 15%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+#CompanyName {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
+}
+button {
+  background: #5e5df0;
+  border-radius: 999px;
+  /* box-shadow: #5e5df0 0 10px 20px -10px; */
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  /* font-size: 16px; */
+  font-weight: 500;
+  line-height: 17px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+/* Search Bar */
+.main {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin-top: 2em;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  margin: 5em auto;
+}
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.recipe {
+  display: block;
+  margin: 20px;
+  width: 100%;
+  background-color: #cbcaca;
+  border-radius: 5px;
+  text-align: middle;
+  /*transition: transform 0.3s ease;*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 50px;
+
+}
+.recipe li {
+  list-style-type:circle;
+  margin: 10px;
+  margin-left: 30px;
+  text-align: left;
+}
+.recipe h3 {
+  text-align: left;
+}
+#CookingInstructions li {
+  list-style-type:decimal;
+}
+img {
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 5px;
+  padding-top: 1em;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid var(--main-color);
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: var(--gray);
+}
+
+.searchTerm:focus {
+  color: var(--black);
+}
+
+.searchButton {
+  height: 36px;
+  border: 1px solid var(--main-color);
+  background: var(--main-color);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 50%;
+  padding: 2em;
+}
+
+/* Footer */
+footer {
+  padding: 1em;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.team4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.35em;
+}
+#group_title {
+  font-size: 1.5em;
+}
+.teamtitle {
+  padding-top: 0.1em;
+  font-size: 1em;
+}
+footer img {
+  max-width: 5%;
+  padding: 0.5em;
+}

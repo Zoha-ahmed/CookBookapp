@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MyFood | Login</title>
+    <link rel="stylesheet" href="../styles/sign_in.css" />
+  </head>
+  <body>
+    <header>
+      <div class="CookBook">
+        <a href="landingpage.html" id="clickable">
+          <img
+            src="../imgs/CookBook_transparent.png"
+            alt=""
+            id="CookBook_logo"
+          />
+          <h3 id="CompanyName">CookBook</h3>
+        </a>
+      </div>
+    </header>
+
+    <div class="container">
+      <form
+        id="sign_in"
+        class="login-form"
+        method="GET"
+        onsubmit="return validateLogin()"
+        action="../html/recipes.html"
+      >
+        <h2>Sign Up</h2>
+        <div class="formData">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            autocomplete="email"
+            placeholder="Enter your email"
+            id="email"
+            name="email"
+          />
+
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            placeholder="Enter your password"
+            id="password"
+            name="password"
+          />
+          <div id="forgot_password">
+            <a href="./forgot_password.html" id="forgot_pwd"
+              >Forgot Password?</a
+            >
+          </div>
+          <div class="buttons">
+            <a href="../html/landingpage.html">
+              <input type="button" value="Cancel" id="cancel" />
+            </a>
+            <input type="submit" value="Sign In" id="save" name="save" />
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      function validateLogin() {
+        // Your login validation logic here
+        return true; // this is just a placeholder function for now that's why it's not in script folder
+      }
+    </script>
+  </body>
+</html>

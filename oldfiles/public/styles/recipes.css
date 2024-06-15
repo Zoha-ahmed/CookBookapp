@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+:root {
+  --main-color: #14ed67;
+  --black: #000;
+  --gray: #2d2d2d;
+  --main-color: #5e5df0;
+  --white: #fff;
+}
+
+body {
+  background-color: #fefefd;
+  max-width: 100%;
+}
+
+button {
+  background: #5e5df0;
+  border-radius: 999px;
+  /* box-shadow: #5e5df0 0 10px 20px -10px; */
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  /* font-size: 16px; */
+  font-weight: 500;
+  line-height: 17px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+/* Search Bar */
+.main2 {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin-top: 2em;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  margin: 5em auto;
+}
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 1vh 0 5vh 0;
+}
+.recipe {
+  display: flex;
+  width: 200px;
+  margin: 10px;
+  background-color: #cbcaca;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+
+.recipe:hover {
+  transform: scale(1.1);
+}
+
+.recipe img {
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 5px;
+  padding-top: 2em;
+}
+.search {
+  width: 75%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid var(--main-color);
+  border-right: none;
+  padding: 17px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: var(--gray);
+}
+
+.searchTerm:focus {
+  color: var(--black);
+}
+
+.searchButton {
+  border: 1px solid var(--main-color);
+  background: var(--main-color);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  width: 15%;
+}
+
+/*Resize the wrap to see the search bar change!*/
+/* .wrap {
+  width: 100%;
+  padding: 2em 0 2em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+#searchframe {
+  max-width: 100%;
+}
+#ExampleChefRecipes {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bolder;
+  text-align: center;
+}

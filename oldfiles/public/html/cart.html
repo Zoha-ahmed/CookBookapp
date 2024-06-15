@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookbook</title>
+    <link rel="stylesheet" href="../styles/cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="body">
+      <header class="navbar">
+        <div class="CookBook">
+          <a href="landingpage.html" id="clickable">
+            <img
+              src="../imgs/CookBook_transparent.png"
+              alt=""
+              id="CookBook_logo"
+            />
+            <h3 id="CompanyName">CookBook</h3>
+          </a>
+        </div>
+        <div class="info">
+          <li><a href="../html/developer.html" id="team">Who We Are</a></li>
+        </div>
+        <div class="options">
+          <li><a href="../html/recipes.html" id="search">Search</a></li>
+          <li><a href="../html/upload.html" id="upload">Upload</a></li>
+          <li>
+            <button>
+              <a href="../html/sign_up.html"
+                >Cart <i class="fas fa-shopping-cart"></i
+              ></a>
+            </button>
+          </li>
+        </div>
+      </header>
+      <div class="main">
+        <h1>Your Cart</h1>
+        <div class="wrap">
+          <div class="search">
+            <input
+              type="text"
+              class="searchTerm"
+              placeholder="Search Cart!"
+            />
+            <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="recipes">
+          <div class="recipe" onclick="window.location.href='#recipe3'">
+            <img src="../imgs/cartlogo.jpg"/>
+            <br>
+            <p>Item 1</p>
+          </div>
+          <div class="recipe" onclick="window.location.href='#recipe5'">
+            <img src="../imgs/cartlogo.jpg"/>
+            <br>
+            <p>Item 2</p>
+          </div>
+          <div class="recipe" onclick="window.location.href='#recipe6'">
+            <img src="../imgs/cartlogo.jpg"/>
+            <br>
+            <p>Item 3</p>
+          </div>
+        </div>
+        <button id="add_recipe">Edit Cart</button> 
+        <button id="add_recipe">Check Out</button>
+      </div>
+      <footer>
+        <img src="../imgs/CookBook_transparent.png" alt="" id="CookBook_logo" />
+        <div class="team4">
+          <h1 id="group_title">CookBook</h1>
+          <h3 class="teamtitle">Team 4</h3>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

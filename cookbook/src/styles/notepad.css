@@ -1,0 +1,63 @@
+body {
+  background-color: #f4f4f4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.notes {
+  padding: 4em;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+#noteheader {
+  color: #333;
+  padding-bottom: 1em;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1em;
+  line-height: 1.5;
+  resize: vertical;
+}
+
+#SaveButton {
+  background-color: #5C6BC0;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#SaveButton:hover {
+  background-color: #3949AB;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+/* Responsive design for smaller devices */
+@media (max-width: 768px) {
+  .notes {
+    padding: 2em;
+    width: 90%;
+  }
+
+  textarea {
+    padding: 0.5em;
+  }
+
+  #SaveButton {
+    width: 100%;
+    padding: 1em;
+  }
+}

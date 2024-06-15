@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dae3869f.css",
+    "main.js": "/static/js/main.8e94c81b.js",
+    "static/js/453.5f0ab055.chunk.js": "/static/js/453.5f0ab055.chunk.js",
+    "static/media/jack.png": "/static/media/jack.1e76618e521500e59f70.png",
+    "static/media/chenw21.JPG": "/static/media/chenw21.ad085191949546affd03.JPG",
+    "static/media/StellaG.png": "/static/media/StellaG.b576778707ed8f107382.png",
+    "static/media/jakepic.JPG": "/static/media/jakepic.0bb4f0cbb1ebf36e0d04.JPG",
+    "static/media/CookBook_transparent.png": "/static/media/CookBook_transparent.d55eabbd1845e318c68c.png",
+    "static/media/SearchRecipes.png": "/static/media/SearchRecipes.f09f535a9a9d09db7d4a.png",
+    "static/media/spag.jpeg": "/static/media/spag.f05f330ea31816e6f0f8.jpeg",
+    "static/media/loginimageveg.jpeg": "/static/media/loginimageveg.9200c323c838e194e6d4.jpeg",
+    "index.html": "/index.html",
+    "main.dae3869f.css.map": "/static/css/main.dae3869f.css.map",
+    "main.8e94c81b.js.map": "/static/js/main.8e94c81b.js.map",
+    "453.5f0ab055.chunk.js.map": "/static/js/453.5f0ab055.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dae3869f.css",
+    "static/js/main.8e94c81b.js"
+  ]
+}

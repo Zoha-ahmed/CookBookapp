@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+}
+
+.container {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(145, 146, 122, 0.62),
+      rgba(23, 4, 5, 0.8)
+    ),
+    url("../imgs/loginimageveg.jpeg");
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10%;
+}
+
+.login-form {
+  background-color: ghostwhite;
+  width: 500px;
+  height: 400px;
+  padding: 30px;
+  display: grid;
+  border-radius: 8px;
+  text-align: left;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+.login-form h2 {
+  color: rgb(44, 12, 18);
+  text-align: center;
+}
+
+/* input[type="text"] {
+  margin-bottom: 20px;
+  border-radius: 7px;
+  padding: 6px;
+  margin-top: 3px;
+} */
+
+input[type="email"] {
+  margin-bottom: 20px;
+  border-radius: 7px;
+  padding: 6px;
+  margin-top: 3px;
+  width: 100%;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-radius: 7px;
+  padding: 6px;
+  margin-top: 3px;
+  width: 100%;
+}
+
+.login {
+  background-color: rgb(42, 7, 14);
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+.login-form h2 {
+  border-bottom: 2px solid rgb(42, 7, 14); /* Change the color as needed */
+  padding-bottom: 10px; /* Adjust the padding as needed */
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
+.login a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.login:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.forget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forget a {
+  text-decoration: none;
+  color: #5e5df0;
+  transition: 0.1s ease;
+}
+
+.forget a:hover {
+  color: #5e5df0;
+}
+
+.CookBook h3 {
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  margin-left: 5px; /* Adjust margin if needed */
+}
+
+.login,
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.login li,
+.info li {
+  list-style-type: none;
+  margin-right: 20px; /* Adjust spacing as needed */
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Add these CSS rules to style the buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cancel,
+#save {
+  padding: 10px 80px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#cancel {
+  background-color: #ccc;
+  color: #333;
+}
+
+#save {
+  background-color: rgb(42, 7, 14);
+  color: white;
+}
+
+/* Add hover effects */
+#cancel:hover {
+  background-color: #999;
+}
+
+#save:hover {
+  background-color: rgb(0, 0, 0);
+}

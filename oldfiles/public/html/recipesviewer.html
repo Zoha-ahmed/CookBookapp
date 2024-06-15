@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookbook</title>
+    <link rel="stylesheet" href="../styles/recipesviewer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <script type="text/javascript" src="../scripts/recipesviewer.js"></script>
+  </head>
+  <body>
+    <div class="body">
+      <header class="navbar">
+        <div class="CookBook">
+          <a href="landingpage.html" id="clickable">
+            <img
+              src="../imgs/CookBook_transparent.png"
+              alt=""
+              id="CookBook_logo"
+            />
+            <h3 id="CompanyName">CookBook</h3>
+          </a>
+        </div>
+        <div class="info">
+          <li><a href="../html/developer.html" id="team">Who We Are</a></li>
+        </div>
+        <div class="options">
+          <li><a href="../html/recipes.html" id="search">Search</a></li>
+          <li><a href="../html/upload.html" id="upload">Upload</a></li>
+          <li>
+            <button>
+              <a href="../html/cart.html"
+                >Cart <i class="fas fa-shopping-cart"></i
+              ></a>
+            </button>
+          </li>
+        </div>
+      </header>
+      <div class="main">
+        <h1 id="TheName"><a href="https://www.myrecipes.com/recipe/pan-seared-filet-mignon">Pan-Seared Filet Mignon</a></h1>
+        <h2 id="TheAuthors" style="font-weight:600; padding-top:1em;">By: Southern Living</h3>
+        <h2 id="TheBlurb" style="font-weight:600; padding-top:1em;">Prepare this simple, but outstanding seared beef tenderloin recipe for guests.</h3>
+        <span id="TheImage"><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2008%2F10%2F16%2Fmyrecipes-pan-seared-filet-mignon-4x3-1-2000.jpg" alt="Pan-Seared Filet Mignon" /></span>
+        <div class="recipes" id="the_recipe">
+          <div class="recipe">
+            <h2 style="font-weight:600; margin: 20px;">Ingredients:</h2>
+            <ul id="TheIngredients">
+              <li>4 (6-oz) beef tenderloin fillets</li>
+              <li>1 teaspoon freshly cracked pepper</li>
+              <li>1/2 teaspoon kosher salt</li>
+              <li>2 tablespoons butter</li>
+              <li>2 tablespoons olive oil</li>
+            </ul>
+          </div>
+          <div class="recipe" id="CookingInstructions">
+            <h2 style="font-weight:600; margin: 20px;">Cooking Instructions:</h2>
+            <h3 id="PrepAndServings" style="font-weight:600; margin: 20px;">Prep Time: 30 Minutes <span style="float:right;">Servings: 4</span></h3>
+            <ul id="TheSteps">
+              <li>Sprinkle fillets with pepper salt.</li>
+              <li>Melt butter with olive oil in a large stainless steel or cast-iron skillet over medium heat. Add fillets, and cook 5 to 7 minutes on each side or to desired degree of doneness. Let stand 5 minutes.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <img src="../imgs/CookBook_transparent.png" alt="" id="CookBook_logo" />
+        <div class="team4">
+          <h1 id="group_title">CookBook</h1>
+          <h3 class="teamtitle">Team 4</h3>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

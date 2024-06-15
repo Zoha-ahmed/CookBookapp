@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(23, 23, 23);
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  align-items: center;
+}
+.login {
+  display: flex;
+  justify-content: space-between;
+  width: auto; /* Adjust width to fit content */
+  margin-right: 30px; /* Add margin to the right side */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 0px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 9em;
+  justify-content: space-evenly;
+  align-items: center;
+  /* height: 1500px; */
+}
+
+button {
+  background: #5e5df0;
+  border-radius: 999px;
+  /* box-shadow: #5e5df0 0 10px 20px -10px; */
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  /* font-size: 16px; */
+  font-weight: 500;
+  line-height: 17px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+#discover {
+  font-size: 3em;
+  width: 25%;
+}
+#description {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 43%;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+}
+img {
+  width: 37%;
+  height: 37%;
+  border-radius: 3em;
+}
+#description2 {
+  margin-bottom: 4vh;
+  font-size: 350%;
+  font-weight: 600;
+}
+#description3 {
+  font-size: 1.5em;
+  font-weight: 350;
+  margin-bottom: 0.7em;
+}
+/* #jack {
+    font-size: 30vh;
+  } */
+#questions {
+  font-size: 1em;
+  width: 50%;
+  margin-left: 1em;
+}
+.getstarted {
+  display: flex;
+  flex-direction: row;
+}
+#Dev {
+  text-decoration: underline;
+  background-color: transparent;
+  color: #5e5df0;
+  font-size: 0.85em;
+}
+#team,
+#newspage,
+#signin {
+  color: white;
+  text-decoration: none;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+    margin-right: 20px; 
+}
+#clickable {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#CookBook_logo {
+  border-radius: 10em;
+  width: 20%;
+}
+.CookBook {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(17, 17, 17);
+  width: 15%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-grow: 0;
+  margin-right: auto;
+  
+  
+}
+
+#CompanyName {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 5px;
+}
+footer {
+  margin-top: 5vh;
+  padding: 1em;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.team4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.35em;
+}
+#group_title {
+  font-size: 1.5em;
+}
+.teamtitle {
+  padding-top: 0.1em;
+  font-size: 1em;
+}
+footer img {
+  max-width: 5%;
+  padding: 0.5em;
+}

@@ -1,0 +1,103 @@
+body {
+  /* background-color: rgb(23, 23, 23); */
+}
+#CookBook_logo {
+  border-radius: 10em;
+  width: 20%;
+}
+.CookBook {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(17, 17, 17);
+  width: 15%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-grow: 0;
+  margin-right: auto;
+}
+#CompanyName {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 5px;
+}
+.login {
+  display: flex;
+  justify-content: space-between;
+  width: auto; /* Adjust width to fit content */
+  margin-right: 30px; /* Add margin to the right side */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#team,
+#newspage,
+#signin {
+  color: white;
+  text-decoration: none;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  margin-right: 20px;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+li {
+  list-style-type: none;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 0px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1em;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  align-items: center;
+}
+button {
+  background: #5e5df0;
+  border-radius: 999px;
+
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  /* font-size: 16px; */
+  font-weight: 500;
+  line-height: 17px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
