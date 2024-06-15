@@ -1,4 +1,16 @@
-# ITWS-4500-Team-4
+CookBook
+
+CookBook is a one-stop recipe sharing application. Users can upload, search and curate recipies to their dietary needs and preferences. With features like a generated shopping list, recipe upload and recipie filtering. 
+CookBook can significantly improve the relationship someone has with food by offering various features designed to promote healthier eating habits and provide support. The app provides access to a wide range of healthy recipes, making it easier to find nutritious meals tailored to individual tastes and dietary needs. Users can connect with a supportive community, receiving encouragement and motivation from others who share similar experiences. The app's personalization options allow users to filter recipes based on dietary preferences, create adaptable meal plans, and access detailed nutritional information to make informed food choices.
+
+Technologies:
+
+Front end:
+React
+Backend:
+Node.js with Express
+Database:
+MongoDB
 
 # Sources
 All external recipes are sourced in the url field in the database.
